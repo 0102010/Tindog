@@ -1,0 +1,201 @@
+/* TAG SELECTORS */
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* ID SELECTORS */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+#features .container-fluid {
+    color: black;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 2%;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+#footer {
+    padding-top: 5%;
+}
+
+/* CLASS SELECTORS */
+
+.big-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.carder {
+    padding: 2% 3%;
+}
+/* this is the padding on all 4-sides of the contents in the title section including the two download buttons & the picture
+of the dog in the phone */
+.button-cta {
+    margin: 5% 2%;
+    border-radius: 5%;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 10%;
+    margin: 1%;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.features-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon-features {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon-features:hover {
+    color: #ff4c68;
+}
+
+.icon-footer {
+    padding-bottom: 1%;
+    margin-right: 1%;
+}
+
+.icon-footer:hover {
+    color: #ff4c68;
+}
+
+.iphone-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 900;
+    
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: Light;
+}
+
+.press-logo {
+    width: 12%;
+    margin: 2% 2% 3.5%;
+}
+
+.pricing-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.pricing-roles {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* I added this class to the div that contains the iphone image because in bootstrap 4 the "col-lg-6" class has a
+position of relative but in bootstrap 5 the "col-lg-6" class doesn't have a position of relative therefore when I adjusted the position
+of the "iphone-image" class to absolute then it scaled it or position it relative to the whole website therefore the image was way too big and
+it did this because in order of absolute positioning to work the element that you're assingining the absolute positioning to must be a child of
+another element and the element that contains the element that has absolute positioning must have relative positioning. */
+.title-image {
+    position: relative;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.white-section {
+    background-color: white;
+}
+
+@media (max-width: 1030px) {
+    .iphone-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
